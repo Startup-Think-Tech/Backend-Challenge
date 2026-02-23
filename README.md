@@ -1,10 +1,10 @@
-# 🚀 Desafio Backend
+# Desafio Backend
 
 A ideia é simples. Vamos construir a base de qualquer aplicação: um sistema de gerenciamento de usuários.
 
-## 📜 A Missão
+## A Missão
 
-Sua missão, caso decida aceitar, é desenvolver uma API RESTful para realizar as quatro operações básicas (CRUD) em uma entidade `User`.
+Sua missão, caso decida aceitar, é desenvolver uma API para realizar as quatro operações básicas (CRUD) em uma entidade `User`.
 
 -   **C**reate (Criar)
 -   **R**ead (Ler)
@@ -13,7 +13,7 @@ Sua missão, caso decida aceitar, é desenvolver uma API RESTful para realizar a
 
 O desafio deve ser concluído em **uma semana**.
 
-## 📦 Modelo de Dados
+## Modelo de Dados
 
 A entidade `User` deve conter, no mínimo, os seguintes campos:
 
@@ -34,7 +34,7 @@ Sua API deve expor os seguintes endpoints:
 -   `[PUT] /users/:id`: Atualiza os dados de um usuário específico.
 -   `[DELETE] /users/:id`: Remove um usuário do sistema.
 
-## ⚙️ Diretrizes Técnicas
+## Diretrizes Técnicas
 
 ### Liberdade de Escolha
 Você tem total liberdade para escolher as ferramentas que mais te agradam. Quer usar Go, Python, NodeJS, Java ou Rust? Manda ver! O mesmo vale para o banco de dados: PostgreSQL, MongoDB, MySQL, a escolha é sua. O importante é a qualidade da entrega final.
@@ -46,7 +46,7 @@ Você tem total liberdade para escolher as ferramentas que mais te agradam. Quer
 -   **Tratamento de Erros**: A API deve retornar mensagens de erro claras e úteis.
 -   **Estrutura do Projeto**: Organize seu código de forma limpa e escalável (ex: separação de controllers, services, repositories, etc.).
 
-## 💡 Exemplos de Implementação (Node.js com Express)
+## Exemplos de Implementação (Node.js com Express)
 
 Para te dar um norte, aqui estão alguns exemplos de como os endpoints poderiam se comportar.
 
@@ -148,7 +148,7 @@ app.delete('/users/:id', (req, res) => {
 // (Sem corpo de resposta)
 ```
 
-## 🎉 Como Participar
+## Como Participar
 
 1.  **Fork** este repositório.
 2.  Crie uma nova **branch** para o seu desenvolvimento (ex: `feat/user-crud-davi`).
@@ -165,12 +165,12 @@ Qual a melhor tecnologia pra acompanhar ?
 
 ## Busque sempre aprender
 
-Faça perguntas mesmo que você ache que sejam bestas, aprender nunca é demais, então faça perguntas do tipo:
+Faça perguntas para si, mesmo que você ache que sejam bestas, aprender nunca é demais, então faça perguntas do tipo:
 
 O que é uma API ?
 o que é um JSON ?
-o que é HTTP ?
+o que é o protocolo HTTP ?
 o que é CRUD ?
 **Como funciona** o meu código ?
 
-### Boa sorte no Desafio
+### Boa sorte no Desafio <3
